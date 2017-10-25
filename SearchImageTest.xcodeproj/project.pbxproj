@@ -14,6 +14,8 @@
 		36F801031F9F738500205F5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F801011F9F738500205F5D /* LaunchScreen.storyboard */; };
 		36F8010E1F9F738500205F5D /* SearchImageTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F8010D1F9F738500205F5D /* SearchImageTestTests.swift */; };
 		36F801191F9F738500205F5D /* SearchImageTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F801181F9F738500205F5D /* SearchImageTestUITests.swift */; };
+		36F801271F9F78DD00205F5D /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F801261F9F78DD00205F5D /* SearchTableViewController.swift */; };
+		36F801291F9F885C00205F5D /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F801281F9F885C00205F5D /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		36F801141F9F738500205F5D /* SearchImageTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchImageTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F801181F9F738500205F5D /* SearchImageTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchImageTestUITests.swift; sourceTree = "<group>"; };
 		36F8011A1F9F738500205F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36F801261F9F78DD00205F5D /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		36F801281F9F885C00205F5D /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 			children = (
 				36F800F81F9F738500205F5D /* AppDelegate.swift */,
 				36F800FA1F9F738500205F5D /* ViewController.swift */,
+				36F801261F9F78DD00205F5D /* SearchTableViewController.swift */,
 				36F800FC1F9F738500205F5D /* Main.storyboard */,
+				36F801281F9F885C00205F5D /* DetailsViewController.swift */,
 				36F800FF1F9F738500205F5D /* Assets.xcassets */,
 				36F801011F9F738500205F5D /* LaunchScreen.storyboard */,
 				36F801041F9F738500205F5D /* Info.plist */,
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				36F800FB1F9F738500205F5D /* ViewController.swift in Sources */,
+				36F801271F9F78DD00205F5D /* SearchTableViewController.swift in Sources */,
 				36F800F91F9F738500205F5D /* AppDelegate.swift in Sources */,
+				36F801291F9F885C00205F5D /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
